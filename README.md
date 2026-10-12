@@ -110,7 +110,7 @@ La siguiente atribución se basa únicamente en los commits disponibles en el hi
 | Integrante | Aportes respaldados por commits |
 |---|---|
 | Álvaro Ramírez Silva | Estructura inicial del repositorio y `.gitignore`; incorporación de la carpeta reservada para Power BI (Fase 2); creación del script SQL del modelo dimensional `KentFoods_DW`. |
-| [INSERTAR NOMBRE] | [INSERTAR RESPONSABILIDADES Y/O COMMITS VERIFICABLES]. |
-| [INSERTAR NOMBRE] | [INSERTAR RESPONSABILIDADES Y/O COMMITS VERIFICABLES]. |
+| Moises Larenas | [INSERTAR RESPONSABILIDADES Y/O COMMITS VERIFICABLES]. |
+| Ignacio Miranda | [INSERTAR RESPONSABILIDADES Y/O COMMITS VERIFICABLES]. |
 
 **Nota:** verificar con el equipo los nombres oficiales de todos los integrantes y completar las contribuciones que no estén representadas en el historial actual.
