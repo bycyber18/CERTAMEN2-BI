@@ -45,7 +45,7 @@ El modelo se crea en `database/scripts/01_crear_modelo_dimensional.sql`. El scri
 
 ## 5. Proceso ETL
 
-El proyecto SSIS incluido (`etl/ETL_BikeZ`) no implementa todavía las fases de extracción, transformación ni carga. `ETL_BikeZ.dtsx` contiene un paquete sin ejecutables; el proyecto no declara administradores de conexión, orígenes, destinos, parámetros ni transformaciones. Por lo tanto, no es posible atribuirle actualmente reglas de limpieza o validación ni afirmar que carga `KentFoods_DW`.
+El proyecto SSIS incluido (`etl/ETL_KentFoods`) no implementa todavía las fases de extracción, transformación ni carga. `ETL_KentFoods.dtsx` contiene un paquete sin ejecutables; el proyecto no declara administradores de conexión, orígenes, destinos, parámetros ni transformaciones. Por lo tanto, no es posible atribuirle actualmente reglas de limpieza o validación ni afirmar que carga `KentFoods_DW`.
 
 Al completar el ETL, el flujo deberá documentarse y configurarse para:
 
@@ -58,7 +58,7 @@ Estos puntos son el diseño pendiente del flujo y no describen transformaciones 
 ## 6. Tecnologías Utilizadas
 
 - **Microsoft SQL Server:** base de datos destino `KentFoods_DW`; el proyecto SSIS declara como versión de destino `SQLServer2025`.
-- **Visual Studio 2022 (solución formato 17):** entorno asociado a `ETL_BikeZ.sln` y `ETL_BikeZ.dtproj`.
+- **Visual Studio 2022 (solución formato 17):** entorno asociado a `ETL_KentFoods.sln` y `ETL_KentFoods.dtproj`.
 - **SQL Server Integration Services (SSIS):** proyecto de implementación del ETL, actualmente en estado de plantilla.
 - **Git y GitHub:** control de versiones y alojamiento del repositorio, evidenciados por el historial y las ramas remotas.
 - **SQL Server Management Studio (SSMS):** herramienta sugerida para ejecutar y revisar el script SQL; no se registra como dependencia del proyecto.
@@ -75,7 +75,7 @@ CERTAMEN2-BI/
 │   ├── modelo-dimensional/     # Reservado para documentación del modelo; actualmente .gitkeep
 │   └── presentacion/           # Reservado para material de presentación; actualmente .gitkeep
 ├── etl/
-│   ├── ETL_BikeZ/              # Solución/proyecto SSIS y paquete de plantilla
+│   ├── ETL_KentFoods/              # Solución/proyecto SSIS y paquete de plantilla
 │   └── proyecto-ssis/          # Reservado; actualmente contiene .gitkeep
 ├── olap/                       # Reservado para artefactos OLAP; actualmente .gitkeep
 ├── powerbi/                    # Reservado para la Fase 2; actualmente .gitkeep
@@ -97,11 +97,11 @@ CERTAMEN2-BI/
 ### Abrir y ejecutar el proyecto SSIS
 
 1. Usar Visual Studio 2022 con la extensión **SQL Server Integration Services Projects** instalada.
-2. Abrir `etl/ETL_BikeZ/ETL_BikeZ.sln` y revisar la configuración `Development` y la versión de destino de SQL Server.
+2. Abrir `etl/ETL_KentFoods/ETL_KentFoods.sln` y revisar la configuración `Development` y la versión de destino de SQL Server.
 3. Antes de ejecutar una carga, completar el paquete con conexiones, tareas de flujo de datos, transformaciones, validaciones y destinos; configurar también los accesos al origen y a `KentFoods_DW`.
 4. Cuando el flujo esté implementado, seleccionar el paquete y usar **Start** en Visual Studio. Verificar el resultado y los errores en la ventana de ejecución de SSIS.
 
-**Estado actual:** el paquete versionado está vacío, por lo que abrir o iniciar la solución no extrae, transforma ni carga datos. El nombre `ETL_BikeZ` del proyecto difiere del caso `Kent Foods`; [CONFIRMAR SI ES UN NOMBRE PROVISIONAL O SI DEBE RENOMBRARSE].
+**Estado actual:** el paquete versionado está vacío, por lo que abrir o iniciar la solución no extrae, transforma ni carga datos. El nombre `ETL_KentFoods` del proyecto difiere del caso `Kent Foods`; [CONFIRMAR SI ES UN NOMBRE PROVISIONAL O SI DEBE RENOMBRARSE].
 
 ## 9. Distribución de Aportes
 
