@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DeploymentModel>Project</DeploymentModel>
+  <ProductVersion>16.0.5467.0</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>Integration Services Project1.database</Name>
+    <FullPath>Integration Services Project1.database</FullPath>
+  </Database>
+  <DataSources />
+  <DataSourceViews />
+  <DeploymentModelSpecificContent>
+    <Manifest>
+      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+        <SSIS:Properties>
+          <SSIS:Property SSIS:Name="ID">{c6e2c2d2-79db-4236-928f-747059024067}</SSIS:Property>
+          <SSIS:Property SSIS:Name="Name">Integration Services Project1</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionComments">
+          </SSIS:Property>
+          <SSIS:Property SSIS:Name="CreationDate">2026-10-12T18:06:04.6752528-03:00</SSIS:Property>
+          <SSIS:Property SSIS:Name="CreatorName">MOISESMACHINE\cyber</SSIS:Property>
+          <SSIS:Property SSIS:Name="CreatorComputerName">MOISESMACHINE</SSIS:Property>
+          <SSIS:Property SSIS:Name="Description">
+          </SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAodrngUi1OEiasFKmwpHiuQAAAAACAAAAAAAQZgAAAAEAACAAAAD6BM8a1HXu2zZgvaoHWXyvasN91zRnSM9ZPdVhCrWRiwAAAAAOgAAAAAIAACAAAAAKh3je7FpYsT1enthcXksjippaSGtGbRX6nVAoISuaR5AAAAB9b8Y/nkfa531KRWSkjUtf1b3VmIm4xd4fS8xdG/JGhPa97G/jfCO2yJ8pOYJb+EcAY/t1H7C2c7wrmleFMfsG9xNaPB3TPbdiIIhPqko6iAzsyIOVBApH1I4C/jLmnq4v2PrTVaS/pja6bDtqSBxOUQvqLxtw/+vEqmx0NJ/0lFFP5FwlOs5VNomI1DIPP+NAAAAAQzNZLtTkAUtkGpFrQknY7eFndpxHqYVnsnavHeTaukMVnp+SHcI+RdWnFBxDYmOtf3TMxmRTxcWwO2El/UeJXg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
+        </SSIS:Properties>
+        <SSIS:Packages>
+          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+        </SSIS:Packages>
+        <SSIS:ConnectionManagers>
+          <SSIS:ConnectionManager SSIS:Name="LocalHost.KentFoods.conmgr" />
+        </SSIS:ConnectionManagers>
+        <SSIS:DeploymentInfo>
+          <SSIS:ProjectConnectionParameters>
+            <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods.ConnectByProxy">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods.ConnectionString">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=.;Initial Catalog=KentFoods;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Integration Services Project1-{A9E02B35-4A5E-47AE-AA6F-7F905AE7486A}LocalHost.KentFoods;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods.ConnectRetryCount">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods.ConnectRetryInterval">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">5</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods.ConnectUsingManagedIdentity">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods.InitialCatalog">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">KentFoods</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods.Password">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods.RetainSameConnection">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods.ServerName">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">.</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods.UserName">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+          </SSIS:ProjectConnectionParameters>
+          <SSIS:PackageInfo>
+            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{D0226539-0B9D-489C-A6F8-895CD5158219}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{9BF8CB9A-43C4-4EF8-BDF7-A44995FB4FC4}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods 1.ConnectByProxy">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods 1.ConnectionString">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=.;Initial Catalog=KentFoods;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods 1.ConnectRetryCount">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">1</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods 1.ConnectRetryInterval">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">5</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods 1.ConnectUsingManagedIdentity">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods 1.InitialCatalog">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">KentFoods</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods 1.Password">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">1</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods 1.RetainSameConnection">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods 1.ServerName">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">.</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods 1.UserName">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods_DW.ConnectByProxy">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods_DW.ConnectionString">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=.;Initial Catalog=KentFoods_DW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods_DW.ConnectRetryCount">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">1</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods_DW.ConnectRetryInterval">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">5</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods_DW.ConnectUsingManagedIdentity">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods_DW.InitialCatalog">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">KentFoods_DW</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods_DW.Password">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">1</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods_DW.RetainSameConnection">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods_DW.ServerName">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">.</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LocalHost.KentFoods_DW.UserName">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+              </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+          </SSIS:PackageInfo>
+        </SSIS:DeploymentInfo>
+      </SSIS:Project>
+    </Manifest>
+  </DeploymentModelSpecificContent>
+  <ControlFlowParts />
+  <Miscellaneous />
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings />
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings />
+        <DatabaseStorageLocations />
+        <TargetServerVersion>SQLServer2022</TargetServerVersion>
+        <AzureMode>false</AzureMode>
+        <LinkedAzureTenantId />
+        <LinkedAzureAccountId />
+        <LinkedAzureSSISIR />
+        <LinkedAzureStorage />
+        <RemoteExecutionFolder />
+        <ParameterConfigurationValues />
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>
